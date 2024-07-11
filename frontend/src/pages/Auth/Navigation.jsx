@@ -17,7 +17,7 @@ import { logout } from "../../redux/features/auth/authSlice";
 
 function Navigation() {
     const { userInfo } = useSelector((state) => state.auth);
-    const { cartItems } = useSelector((state) => state.cart);
+    // const { cartItems } = useSelector((state) => state.cart);
 
     const [dropdownOpen, setDropdownOpen] = useState(false);
     const [showSidebar, setShowSidebar] = useState(false);
